@@ -4,7 +4,7 @@ $(function () {
   QUnit.module('button plugin')
 
   QUnit.test('should be defined on jquery object', function (assert) {
-    assert.expect(1)
+    assert.expect(0)  // force FAIL
     assert.ok($(document.body).button, 'button method is defined')
   })
 
